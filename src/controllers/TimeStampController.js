@@ -31,8 +31,7 @@ module.exports = {
       });
     } catch (err) {
       return res.status(400).json({
-        unix: 'Invalid Date',
-        utc: 'Invalid Date',
+        error: "Invalid Date"
       });
     }
   },
